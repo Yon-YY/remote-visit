@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "layer": "../../components/layer/layer"
+  }
+}

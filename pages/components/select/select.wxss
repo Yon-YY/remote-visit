@@ -1,0 +1,60 @@
+.com-selectBox {
+  width: 316px;
+}
+
+.com-sContent {
+  border: 1px solid #577785;
+  background: white;
+  font-size: 16px;
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  opacity: .9;
+}
+
+.com-sImg {
+  position: absolute;
+  right: 6px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease;
+}
+
+.com-sTxt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 20px 0 6px;
+  font-size: 18px;
+}
+
+.com-sList {
+  background: white;
+  width: 314px;
+  position: absolute;
+  margin-left: 1px;
+  border: 1px solid #e2e2e2;
+  border-top: none;
+  box-sizing: border-box;
+  z-index: 3;
+  max-height: 400px;
+  overflow: auto;
+  opacity: .9;
+}
+
+.com-sItem {
+  height: 35px;
+  line-height: 35px;
+  border-top: 1px solid #e2e2e2;
+  padding: 0 8px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+.com-sItem:first-child {
+  border-top: none;
+}

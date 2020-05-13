@@ -1,0 +1,16 @@
+<view class="main-box">
+  <view class="patient-list-box">已绑定探视人列表</view>
+  <view class="main-list">
+    <block wx:for='{{patientList}}' wx:key='index'>
+      <!-- <block> -->
+      <view class="patient-row" data-index='{{index}}' bindtap="patientOperation">
+        <view class="patient-column patient-name">{{item.patientName}}</view>
+        <view class="patient-column operation">操作</view>
+      </view>
+    </block>
+  </view>
+  <view wx:if='{{patientList.length <= 0}}' class="nothing">未绑定探视人，请先添加探视人</view>
+</view>
+<view class='bottom-btn'>
+  <button type="primary" bindtap="addPatient" hover-class="none">添加探视人</button>
+</view>

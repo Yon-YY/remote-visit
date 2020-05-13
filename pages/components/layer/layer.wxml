@@ -1,0 +1,11 @@
+<!-- hidden属性为false显示，为true隐藏 -->
+<cover-view class='mask' hidden='{{isShow}}'>
+  <cover-view class='modal'>
+    <cover-view class='title' wx:if='{{title}}'>{{title}}</cover-view>
+    <cover-view class='content'>{{content}}</cover-view>
+    <cover-view class='btns'>
+      <button class='cancel' bindtap='Cancel' wx:if='{{showCancel}}' hover-class="none">取消</button>
+      <button class='success' bindtap='Success' hover-class="none">{{confirmText}}</button>
+    </cover-view>
+  </cover-view>
+</cover-view>

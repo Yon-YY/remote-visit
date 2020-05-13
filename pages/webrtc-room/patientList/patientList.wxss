@@ -1,0 +1,59 @@
+.main-box {
+  background-image: url(https://mc.qcloudimg.com/static/img/7da57e0050d308e2e1b1e31afbc42929/bg.png);
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-list {
+  max-height: 600px;
+  overflow: auto;
+}
+
+.patient-list-box {
+  padding: 15px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  border-bottom: #f0f0f0ff 1px solid;
+}
+
+.patient-row {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  color: #fff;
+  border-bottom: #577785 1px dashed;
+  opacity: 0.8;
+}
+
+.patient-column {
+  padding: 2vw;
+  margin: 0 10px;
+  width: 10vw;
+  height: 8vw;
+}
+
+.patient-name {
+  width: 60vw;
+}
+
+.nothing {
+  padding-top: 20vh;
+  text-align: center;
+  color: #fff;
+}
+
+.bottom-btn {
+  position: fixed;
+  width: 92vw;
+  left: 4vw;
+  bottom: 6vh;
+}
+
+.bottom-btn button {
+  background-color: #006eff;
+  border-radius: 50px;
+}

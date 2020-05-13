@@ -1,0 +1,6 @@
+<view class="main-box">
+  <view class="title">远程探视</view>
+</view>
+<view class='bottom-btn relieve-btn'>
+  <button type="primary" bindtap="disconnect" hover-class="none">挂断</button>
+</view>

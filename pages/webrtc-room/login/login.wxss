@@ -1,0 +1,23 @@
+.main-box {
+  background-image: url(https://mc.qcloudimg.com/static/img/7da57e0050d308e2e1b1e31afbc42929/bg.png);
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.refuse-box {
+  padding-top: 25vh;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.conten {
+  color: #fff;
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 30px;
+}

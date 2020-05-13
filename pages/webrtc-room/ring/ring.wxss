@@ -1,0 +1,27 @@
+.main-box {
+  background-image: url(https://mc.qcloudimg.com/static/img/7da57e0050d308e2e1b1e31afbc42929/bg.png);
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+}
+
+.bottom-btn {
+  position: fixed;
+  width: 92vw;
+  left: 4vw;
+  bottom: 6vh;
+}
+
+.bottom-btn button {
+  border-radius: 50px;
+}
+
+.bottom-btn.relieve-btn button {
+  background-color: #ff0021;
+}

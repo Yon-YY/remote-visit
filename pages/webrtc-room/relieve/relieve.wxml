@@ -1,0 +1,11 @@
+<view class="main-box">
+  <view class="title">远程探视-{{patientName}}</view>
+</view>
+<view class='bottom-btn visit-btn'>
+  <button type="primary" bindtap="visit" hover-class="none">探视通话</button>
+</view>
+<view class='bottom-btn relieve-btn'>
+  <button type="primary" bindtap="relieve" hover-class="none">解除绑定</button>
+</view>
+<!-- hidden属性为false显示，为true隐藏 -->
+<layer id="layer" title="温馨提示" content="确定解除已绑定的探视人？" bindSuccess="onSuccess"></layer>

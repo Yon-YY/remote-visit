@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/webrtc-room/login/login",
+    "pages/webrtc-room/patientList/patientList",
+    "pages/webrtc-room/relieve/relieve",
+    "pages/webrtc-room/ring/ring",
+    "pages/webrtc-room/main/main",
+    "pages/components/select/select",
+    "pages/webrtc-room/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#888",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "乐护探视",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

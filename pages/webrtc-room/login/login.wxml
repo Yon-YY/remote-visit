@@ -1,0 +1,7 @@
+<view class="main-box">
+  <dialog wx:if="{{!hasUserInfo && getUserInfoFail}}" open_type="getUserInfo" title='登录并授权' content='申请获取以下权限获得你的公开信息（昵称、头像）' bindSuccess='onSuccess'></dialog>
+  <view wx:if="{{refuseTips}}" class="refuse-box">
+    <view class="title">授权提示</view>
+    <view class="conten">小程序需要您的微信授权才能使用, 错过授权的处理方法：删除小程序 -> 重新搜索进入 -> 点击授权按钮</view>
+  </view>
+</view>

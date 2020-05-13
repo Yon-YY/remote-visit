@@ -1,0 +1,62 @@
+.mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+}
+
+.modal {
+  width: 580rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-size: 32rpx;
+  color: #0e0e0e;
+  text-align: center;
+  line-height: 105rpx;
+  margin: 0 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #e6e6e6;
+  font-weight: 700;
+}
+
+.content {
+  color: #878787;
+  font-size: 28rpx;
+  line-height: 47rpx;
+  white-space: pre-wrap;
+  padding: 30rpx 86rpx 40rpx;
+  text-align: center;
+  letter-spacing: 1rpx;
+}
+
+.btns {
+  height: 100rpx;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  font-size: 32rpx;
+}
+
+.cancel {
+  line-height: 100rpx;
+  flex-grow: 1;
+  border-right: 1rpx solid #e6e6e6;
+}
+
+.success {
+  line-height: 100rpx;
+  flex-grow: 1;
+  border-left:1rpx solid #e6e6e6;
+}
